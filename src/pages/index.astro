@@ -3,8 +3,14 @@ import { loadMovies, todayWIB, statusOf, daysLeft, formatDateID } from "../lib/m
 
 const movies = loadMovies();
 const today = todayWIB();
-const playing = movies.filter((m) => statusOf(m, today) === "playing");
-const coming = movies.filter((m) => statusOf(m, today) === "coming");
+// Sedang Tayang: urut berdasarkan sisa waktu tayang tersedikit (showUntil terdekat)
+// Segera Hadir: urut berdasarkan tanggal mulai tayang terdekat
+const playing = movies
+  .filter((m) => statusOf(m, today) === "playing")
+  .sort((a, b) => a.showUntil.localeCompare(b.showUntil));
+const coming = movies
+  .filter((m) => statusOf(m, today) === "coming")
+  .sort((a, b) => (a.showFrom ?? "").localeCompare(b.showFrom ?? ""));
 const hero = playing.find((m) => m.backdrop) ?? playing[0] ?? null;
 
 const metaLine = (m: (typeof movies)[number]) =>
@@ -36,13 +42,23 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
           <span class="brand-text">NOW<b>PLAYING</b></span>
         </a>
         <p class="tagline">Jadwal film server Jellyfin</p>
-        <input
-          id="search"
-          class="search"
-          type="search"
-          placeholder="Cari film…"
-          aria-label="Cari film"
-        />
+        <div class="topbar-tools">
+          <input
+            id="search"
+            class="search"
+            type="search"
+            placeholder="Cari film…"
+            aria-label="Cari film"
+          />
+          <label class="sort-wrap">
+            <span>Urutkan:</span>
+            <select id="sort" class="sort" aria-label="Urutkan film">
+              <option value="waktu" selected>Sisa tayang tersedikit</option>
+              <option value="abjad">Abjad A–Z</option>
+              <option value="tahun">Tahun terbaru</option>
+            </select>
+          </label>
+        </div>
       </div>
     </header>
 
@@ -99,6 +115,7 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
                 class="card"
                 data-id={m.id}
                 data-title={m.displayTitle.toLowerCase()}
+                data-year={m.year ?? ""}
                 data-show-from={m.showFrom ?? ""}
                 data-show-until={m.showUntil}
                 data-status="playing"
@@ -159,6 +176,7 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
                 class="card soon"
                 data-id={m.id}
                 data-title={m.displayTitle.toLowerCase()}
+                data-year={m.year ?? ""}
                 data-show-from={m.showFrom ?? ""}
                 data-show-until={m.showUntil}
                 data-status="coming"
@@ -273,6 +291,49 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
       const gridPlaying = document.getElementById("grid-playing");
       const gridComing = document.getElementById("grid-coming");
 
+      // ---- Urutan tampilan film ----
+      const sortSel = document.getElementById("sort");
+      const SORT_MODES = ["waktu", "abjad", "tahun"];
+      let sortMode = "waktu";
+      try {
+        const saved = localStorage.getItem("np-sort");
+        if (SORT_MODES.includes(saved)) sortMode = saved;
+      } catch (e) {}
+      sortSel.value = sortMode;
+
+      function cardSortVal(card, mode) {
+        if (mode === "abjad") return card.dataset.title || "";
+        if (mode === "tahun") return -(Number(card.dataset.year) || -1e9);
+        // waktu: sisa tayang tersedikit (playing) / mulai terdekat (coming)
+        return card.dataset.status === "coming"
+          ? card.dataset.showFrom || ""
+          : card.dataset.showUntil;
+      }
+
+      function sortGrid(grid) {
+        [...grid.children]
+          .sort((a, b) => {
+            const va = cardSortVal(a, sortMode);
+            const vb = cardSortVal(b, sortMode);
+            if (typeof va === "number") return va - vb;
+            return String(va).localeCompare(String(vb));
+          })
+          .forEach((c) => grid.appendChild(c));
+      }
+
+      function applySort() {
+        sortGrid(gridPlaying);
+        sortGrid(gridComing);
+      }
+
+      sortSel.addEventListener("change", () => {
+        sortMode = sortSel.value;
+        try {
+          localStorage.setItem("np-sort", sortMode);
+        } catch (e) {}
+        applySort();
+      });
+
       document.querySelectorAll(".card").forEach((card) => {
         const until = card.dataset.showUntil;
         const from = card.dataset.showFrom || null;
@@ -303,7 +364,8 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
           if (untilEl) untilEl.textContent = fmtID(until);
         }
 
-        // Pindahkan kartu antar section bila statusnya berubah
+        // Pindahkan kartu antar section bila statusnya berubah,
+        // lalu urutkan ulang grid tujuan sesuai mode sort aktif
         const target = isPlaying ? gridPlaying : gridComing;
         if (card.parentElement !== target) {
           if (isPlaying) {
@@ -325,8 +387,10 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
             card.dataset.status = "coming";
           }
           target.appendChild(card);
+          sortGrid(target);
         }
       });
+      applySort();
 
       const refreshCounts = () => {
         const nP = gridPlaying.children.length;
@@ -561,7 +625,6 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
         font-size: 0.85rem;
       }
       .search {
-        margin-left: auto;
         background: var(--surface);
         border: 1px solid rgba(255, 255, 255, 0.1);
         color: var(--text);
@@ -572,6 +635,34 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
         outline: none;
       }
       .search:focus {
+        border-color: var(--accent);
+      }
+      .topbar-tools {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        flex-wrap: wrap;
+      }
+      .sort-wrap {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.85rem;
+        color: var(--muted);
+        white-space: nowrap;
+      }
+      .sort {
+        background: var(--surface);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        color: var(--text);
+        border-radius: 999px;
+        padding: 0.55rem 0.9rem;
+        font-size: 0.85rem;
+        outline: none;
+        cursor: pointer;
+      }
+      .sort:focus {
         border-color: var(--accent);
       }
 
@@ -702,7 +793,7 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
       }
       .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
         gap: 1.25rem;
       }
       .empty {
@@ -1009,6 +1100,16 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
         .search {
           width: 100%;
           margin-left: 0;
+        }
+        .topbar-tools {
+          margin-left: 0;
+          width: 100%;
+        }
+        .sort-wrap {
+          width: 100%;
+        }
+        .sort {
+          flex: 1;
         }
         .hero {
           min-height: 38vh;
