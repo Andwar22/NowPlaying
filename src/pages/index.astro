@@ -11,6 +11,9 @@ const metaLine = (m: (typeof movies)[number]) =>
   [m.year, m.rating ? `★ ${m.rating.toFixed(1)}` : null, m.runtime ? `${m.runtime} mnt` : null]
     .filter(Boolean)
     .join("  •  ");
+
+// JSON data film untuk modal detail (di-escape agar aman di dalam <script>)
+const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
 ---
 
 <!doctype html>
@@ -236,9 +239,9 @@ const metaLine = (m: (typeof movies)[number]) =>
       </div>
     </div>
 
-    <script type="application/json" id="movies-data">
-      {JSON.stringify(movies).replace(/</g, "\\u003c")}
-    </script>
+    <Fragment
+      set:html={`<script type="application/json" id="movies-data">${moviesJson}</script>`}
+    />
 
     <footer>
       <p>
