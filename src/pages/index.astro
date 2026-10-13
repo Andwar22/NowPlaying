@@ -45,7 +45,13 @@ const metaLine = (m: (typeof movies)[number]) =>
 
     {
       hero && (
-        <section class="hero">
+        <section
+          class="hero clickable"
+          data-id={hero.id}
+          tabindex="0"
+          role="button"
+          aria-label={`Lihat detail ${hero.displayTitle}`}
+        >
           {hero.backdrop && (
             <img class="hero-bg" src={hero.backdrop} alt="" loading="eager" />
           )}
@@ -93,6 +99,9 @@ const metaLine = (m: (typeof movies)[number]) =>
                 data-show-from={m.showFrom ?? ""}
                 data-show-until={m.showUntil}
                 data-status="playing"
+                tabindex="0"
+                role="button"
+                aria-label={`Lihat detail ${m.displayTitle}`}
               >
                 <div class="poster-wrap">
                   {m.poster ? (
@@ -120,16 +129,11 @@ const metaLine = (m: (typeof movies)[number]) =>
                   {metaLine(m) && <p class="meta">{metaLine(m)}</p>}
                   {m.genres.length > 0 && (
                     <p class="chips">
-                      {m.genres.slice(0, 3).map((g) => (
+                      {m.genres.slice(0, 2).map((g) => (
                         <span class="chip">{g}</span>
                       ))}
                     </p>
                   )}
-                  {m.overview && <p class="overview">{m.overview}</p>}
-                  <p class="until">
-                    Tayang sampai <b>{formatDateID(m.showUntil)}</b>
-                  </p>
-                  {m.note && <p class="note">{m.note}</p>}
                 </div>
               </article>
             ))
@@ -155,6 +159,9 @@ const metaLine = (m: (typeof movies)[number]) =>
                 data-show-from={m.showFrom ?? ""}
                 data-show-until={m.showUntil}
                 data-status="coming"
+                tabindex="0"
+                role="button"
+                aria-label={`Lihat detail ${m.displayTitle}`}
               >
                 <div class="poster-wrap">
                   {m.poster ? (
@@ -177,11 +184,16 @@ const metaLine = (m: (typeof movies)[number]) =>
                 <div class="card-body">
                   <h3>{m.displayTitle}</h3>
                   {metaLine(m) && <p class="meta">{metaLine(m)}</p>}
-                  {m.overview && <p class="overview">{m.overview}</p>}
+                  {m.genres.length > 0 && (
+                    <p class="chips">
+                      {m.genres.slice(0, 2).map((g) => (
+                        <span class="chip">{g}</span>
+                      ))}
+                    </p>
+                  )}
                   <p class="until">
-                    Mulai tayang <b>{formatDateID(m.showFrom!)}</b>
+                    Mulai <b>{formatDateID(m.showFrom!)}</b>
                   </p>
-                  {m.note && <p class="note">{m.note}</p>}
                 </div>
               </article>
             ))
@@ -192,6 +204,41 @@ const metaLine = (m: (typeof movies)[number]) =>
         </p>
       </section>
     </main>
+
+    <div class="modal-overlay" id="modal-overlay" hidden>
+      <div
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <button class="modal-close" id="modal-close" aria-label="Tutup detail">
+          ✕
+        </button>
+        <div class="modal-top" id="modal-top">
+          <img class="modal-backdrop" id="modal-backdrop" alt="" />
+          <div class="modal-shade"></div>
+        </div>
+        <div class="modal-body">
+          <div class="modal-poster-wrap" id="modal-poster-wrap">
+            <img class="modal-poster" id="modal-poster" alt="" />
+          </div>
+          <div class="modal-info">
+            <p class="modal-kicker" id="modal-kicker"></p>
+            <h2 id="modal-title"></h2>
+            <p class="meta" id="modal-meta"></p>
+            <p class="chips" id="modal-genres"></p>
+            <p class="modal-overview" id="modal-overview"></p>
+            <p class="modal-dates" id="modal-dates"></p>
+            <p class="note" id="modal-note" hidden></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="application/json" id="movies-data">
+      {JSON.stringify(movies).replace(/</g, "\\u003c")}
+    </script>
 
     <footer>
       <p>
@@ -308,6 +355,119 @@ const metaLine = (m: (typeof movies)[number]) =>
         }
       };
       refreshCounts();
+
+      // ---- Modal detail film ----
+      const moviesById = Object.fromEntries(
+        JSON.parse(document.getElementById("movies-data").textContent).map(
+          (m) => [m.id, m]
+        )
+      );
+      const overlay = document.getElementById("modal-overlay");
+      const closeBtn = document.getElementById("modal-close");
+      let lastFocused = null;
+
+      const escHtml = (s) =>
+        String(s ?? "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+
+      function openModal(id) {
+        const m = moviesById[id];
+        if (!m) return;
+        const isPlaying = !m.showFrom || m.showFrom <= today;
+
+        document.getElementById("modal-kicker").textContent = isPlaying
+          ? "● Sedang Tayang"
+          : "🎬 Segera Hadir";
+        document.getElementById("modal-title").textContent = m.displayTitle;
+        const metaParts = [
+          m.year,
+          m.rating ? `★ ${Number(m.rating).toFixed(1)}` : null,
+          m.runtime ? `${m.runtime} mnt` : null,
+        ].filter(Boolean);
+        document.getElementById("modal-meta").textContent =
+          metaParts.join("  •  ");
+        document.getElementById("modal-genres").innerHTML = (
+          m.genres || []
+        )
+          .map((g) => `<span class="chip">${escHtml(g)}</span>`)
+          .join("");
+        const ov = document.getElementById("modal-overview");
+        ov.textContent = m.overview || "Sinopsis belum tersedia.";
+        ov.style.display = m.overview ? "" : "none";
+
+        const days = Math.max(
+          0,
+          Math.round(
+            (Date.parse(m.showUntil + "T00:00:00+07:00") -
+              Date.parse(today + "T00:00:00+07:00")) /
+              86400000
+          )
+        );
+        document.getElementById("modal-dates").innerHTML = isPlaying
+          ? `Tayang sampai <b>${fmtID(m.showUntil)}</b> — sisa ${days} hari`
+          : `Mulai tayang <b>${fmtID(m.showFrom)}</b>`;
+
+        const noteEl = document.getElementById("modal-note");
+        if (m.note) {
+          noteEl.textContent = m.note;
+          noteEl.hidden = false;
+        } else {
+          noteEl.hidden = true;
+        }
+
+        const bd = document.getElementById("modal-backdrop");
+        document.getElementById("modal-top").style.display = m.backdrop
+          ? ""
+          : "none";
+        if (m.backdrop) {
+          bd.src = m.backdrop;
+          bd.alt = "";
+        }
+        const posterWrap = document.getElementById("modal-poster-wrap");
+        const poster = document.getElementById("modal-poster");
+        if (m.poster) {
+          poster.src = m.poster;
+          poster.alt = `Poster ${m.displayTitle}`;
+          posterWrap.style.display = "";
+        } else {
+          posterWrap.style.display = "none";
+        }
+
+        lastFocused = document.activeElement;
+        overlay.hidden = false;
+        document.body.style.overflow = "hidden";
+        closeBtn.focus();
+      }
+
+      function closeModal() {
+        overlay.hidden = true;
+        document.body.style.overflow = "";
+        if (lastFocused) lastFocused.focus();
+      }
+
+      closeBtn.addEventListener("click", closeModal);
+      overlay.addEventListener("click", (e) => {
+        if (e.target === overlay) closeModal();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && !overlay.hidden) closeModal();
+      });
+
+      const bindClickable = (el) => {
+        el.addEventListener("click", () => openModal(el.dataset.id));
+        el.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            openModal(el.dataset.id);
+          }
+        });
+      };
+      document
+        .querySelectorAll(".card, .hero.clickable")
+        .forEach(bindClickable);
 
       // Pencarian sederhana
       const search = document.getElementById("search");
@@ -557,6 +717,7 @@ const metaLine = (m: (typeof movies)[number]) =>
         border: 1px solid rgba(255, 255, 255, 0.07);
         border-radius: var(--radius);
         overflow: hidden;
+        cursor: pointer;
         transition:
           transform 0.25s ease,
           border-color 0.25s ease,
@@ -648,6 +809,170 @@ const metaLine = (m: (typeof movies)[number]) =>
         margin-top: 0.45rem;
         font-size: 0.75rem;
         color: var(--amber);
+      }
+
+      .card:focus-visible,
+      .hero.clickable:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+      }
+      .hero.clickable {
+        cursor: pointer;
+      }
+
+      /* ---- Modal detail film ---- */
+      .modal-overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 100;
+        background: rgba(4, 4, 10, 0.74);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        display: grid;
+        place-items: center;
+        padding: 1.25rem;
+        overflow-y: auto;
+        animation: modalFade 0.2s ease;
+      }
+      .modal-overlay[hidden] {
+        display: none;
+      }
+      .modal {
+        position: relative;
+        width: min(680px, 100%);
+        margin: auto;
+        background: var(--surface);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.8);
+        animation: modalPop 0.25s ease;
+      }
+      .modal-close {
+        position: absolute;
+        top: 0.8rem;
+        right: 0.8rem;
+        z-index: 2;
+        width: 2.2rem;
+        height: 2.2rem;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(10, 10, 16, 0.7);
+        color: var(--text);
+        font-size: 1rem;
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+        transition: background 0.2s ease;
+      }
+      .modal-close:hover {
+        background: var(--accent);
+        border-color: var(--accent);
+      }
+      .modal-top {
+        position: relative;
+        aspect-ratio: 16 / 8;
+        background: var(--surface-2);
+      }
+      .modal-backdrop {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .modal-shade {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to top,
+          var(--surface) 4%,
+          transparent 55%
+        );
+      }
+      .modal-body {
+        display: flex;
+        gap: 1.25rem;
+        padding: 0 1.5rem 1.6rem;
+        margin-top: -3.2rem;
+        position: relative;
+      }
+      .modal-poster-wrap {
+        flex: 0 0 150px;
+      }
+      .modal-poster {
+        width: 150px;
+        border-radius: 12px;
+        display: block;
+        box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.7);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+      }
+      .modal-info {
+        flex: 1;
+        min-width: 0;
+        padding-top: 3.4rem;
+      }
+      .modal-kicker {
+        color: var(--accent);
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: 0.35rem;
+      }
+      .modal-info h2 {
+        font-size: 1.5rem;
+        line-height: 1.25;
+        margin-bottom: 0.4rem;
+      }
+      .modal-info .chips {
+        margin-top: 0.6rem;
+      }
+      .modal-overview {
+        margin-top: 0.9rem;
+        color: #c9c9d6;
+        font-size: 0.92rem;
+        line-height: 1.7;
+      }
+      .modal-dates {
+        margin-top: 1rem;
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+      .modal-dates b {
+        color: var(--text);
+      }
+      .modal-info .note {
+        margin-top: 0.6rem;
+      }
+      @keyframes modalFade {
+        from {
+          opacity: 0;
+        }
+      }
+      @keyframes modalPop {
+        from {
+          opacity: 0;
+          transform: translateY(14px) scale(0.98);
+        }
+      }
+      @media (max-width: 560px) {
+        .modal-body {
+          flex-direction: column;
+          margin-top: -2.4rem;
+          padding: 0 1.15rem 1.3rem;
+        }
+        .modal-poster-wrap {
+          flex: none;
+        }
+        .modal-poster {
+          width: 110px;
+        }
+        .modal-info {
+          padding-top: 0;
+        }
+        .modal-info h2 {
+          font-size: 1.25rem;
+        }
       }
 
       footer {
