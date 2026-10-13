@@ -39,9 +39,11 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
       <div class="topbar-inner">
         <a class="brand" href="/">
           <span class="brand-mark">▶</span>
-          <span class="brand-text">NOW<b>PLAYING</b></span>
+          <div>
+            <span class="brand-text">NOW<b>PLAYING</b></span>
+            <span class="tagline">Jadwal film server Jellyfin</span>
+          </div>
         </a>
-        <p class="tagline">Jadwal film server Jellyfin</p>
         <div class="topbar-tools">
           <input
             id="search"
@@ -51,7 +53,6 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
             aria-label="Cari film"
           />
           <label class="sort-wrap">
-            <span>Urutkan:</span>
             <select id="sort" class="sort" aria-label="Urutkan film">
               <option value="waktu" selected>Sisa tayang tersedikit</option>
               <option value="abjad">Abjad A–Z</option>
@@ -589,8 +590,9 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
       .topbar-inner {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 0.9rem 1.25rem;
+        padding: 1rem 1.25rem;
         display: flex;
+        justify-content: space-between;
         align-items: center;
         gap: 1rem;
         flex-wrap: wrap;
@@ -598,31 +600,34 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
       .brand {
         display: flex;
         align-items: center;
-        gap: 0.5rem;
+        gap: 1rem;
         text-decoration: none;
         color: var(--text);
       }
       .brand-mark {
         background: var(--accent);
         color: #fff;
-        width: 2rem;
-        height: 2rem;
+        width: 2.25rem;
+        height: 2.25rem;
         border-radius: 8px;
         display: grid;
         place-items: center;
-        font-size: 0.9rem;
+        font-size: 1rem;
       }
       .brand-text {
+        display: block;
         font-weight: 800;
         letter-spacing: 0.08em;
-        font-size: 1.05rem;
+        font-size: 1.1rem;
+        line-height: 1.3;
       }
       .brand-text b {
         color: var(--accent);
       }
       .tagline {
+        display: block;
         color: var(--muted);
-        font-size: 0.85rem;
+        font-size: 0.75rem;
       }
       .search {
         background: var(--surface);
@@ -631,18 +636,18 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
         border-radius: 999px;
         padding: 0.55rem 1.1rem;
         font-size: 0.9rem;
-        width: min(260px, 100%);
+        width: min(275px, 100%);
         outline: none;
       }
       .search:focus {
         border-color: var(--accent);
       }
       .topbar-tools {
-        margin-left: auto;
+        flex: 1;
         display: flex;
+        justify-content: flex-end;
         align-items: center;
         gap: 0.7rem;
-        flex-wrap: wrap;
       }
       .sort-wrap {
         display: flex;
@@ -1095,13 +1100,14 @@ const moviesJson = JSON.stringify(movies).replace(/</g, "\\u003c");
           gap: 0.9rem;
         }
         .topbar-inner {
-          gap: 0.7rem;
+          gap: 1.25rem;
         }
         .search {
           width: 100%;
           margin-left: 0;
         }
         .topbar-tools {
+          flex-direction: column;
           margin-left: 0;
           width: 100%;
         }
