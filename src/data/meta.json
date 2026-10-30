@@ -1,28 +1,4 @@
 {
-  "fall-2-deadpoint": {
-    "title": "Fall 2: Deadpoint",
-    "year": 2026,
-    "overview": null,
-    "poster": "https://image.tmdb.org/t/p/w500/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
-    "rating": 7.3,
-    "genres": [
-      "Cerita Seru"
-    ],
-    "runtime": 98
-  },
-  "fall": {
-    "title": "Fall",
-    "year": 2022,
-    "overview": "Untuk sahabat Becky dan Hunter, hidup adalah tentang menaklukkan ketakutan dan mendorong batas. Tetapi setelah mereka mendaki 2.000 kaki ke puncak menara radio terpencil yang ditinggalkan, mereka menemukan diri mereka terdampar tanpa jalan turun. Sekarang keterampilan panjat ahli Becky dan Hunter akan diuji saat mereka mati-matian berjuang untuk bertahan hidup dari unsur-unsur, kurangnya persediaan, dan ketinggian yang menyebabkan vertigo.",
-    "poster": "https://image.tmdb.org/t/p/w500/spCAxD99U1A6jsiePFoqdEcY0dG.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/hlxduUs8y9icWGMzYCDLcYHEQ2u.jpg",
-    "rating": 7.2,
-    "genres": [
-      "Cerita Seru"
-    ],
-    "runtime": 107
-  },
   "deep-water": {
     "title": "Deep Water",
     "year": 2026,
@@ -36,209 +12,6 @@
       "Petualangan"
     ],
     "runtime": 107
-  },
-  "mayday": {
-    "title": "Mayday",
-    "year": 2026,
-    "overview": "Saat seorang pilot Angkatan Laut AS dalam misi rahasia selama Perang Dingin terjebak di belakang garis musuh, satu-satunya peluang untuk bertahan hidup adalah menjalin aliansi dengan seorang mantan agen KGB eksentrik.",
-    "poster": "https://image.tmdb.org/t/p/w500/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
-    "rating": 7.9,
-    "genres": [
-      "Aksi",
-      "Komedi"
-    ],
-    "runtime": 111
-  },
-  "the-mongoose": {
-    "title": "The Mongoose",
-    "year": 2026,
-    "overview": null,
-    "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
-    "rating": null,
-    "genres": [
-      "Aksi",
-      "Cerita Seru"
-    ],
-    "runtime": 99
-  },
-  "mutiny": {
-    "title": "Mutiny",
-    "year": 2026,
-    "overview": null,
-    "poster": "https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
-    "rating": 7.5,
-    "genres": [
-      "Aksi",
-      "Cerita Seru"
-    ],
-    "runtime": 96
-  },
-  "spider-man-brand-new-day": {
-    "title": "Spider-Man: Brand New Day",
-    "year": 2026,
-    "overview": "Empat tahun setelah peristiwa Spider-Man: No Way Home, Peter Parker sudah tidak ada lagi dan Spider-Man kini berada di puncak kemampuannya dalam menjaga Kota New York tetap aman. Semuanya berjalan dengan baik hingga serangkaian kejahatan yang tidak biasa menyeret Spider-Man ke dalam jaring misteri yang lebih besar dari apa pun yang pernah ia hadapi sebelumnya. Untuk menghadapi apa yang akan datang, Spider-Man tidak hanya harus berada dalam kondisi fisik dan mental terbaiknya, tetapi juga harus siap menghadapi konsekuensi dari masa lalunya!",
-    "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/subj7knTn4DeS6KS7qI66EQKe9i.jpg",
-    "rating": 8.5,
-    "genres": [
-      "Cerita Fiksi",
-      "Aksi",
-      "Petualangan"
-    ],
-    "runtime": 145
-  },
-  "weapons": {
-    "title": "Weapons",
-    "year": 2025,
-    "overview": null,
-    "poster": "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/8VyTWJrNEyV2MTWvniDVp0MpOAe.jpg",
-    "rating": 7.3,
-    "genres": [
-      "Kengerian",
-      "Misteri"
-    ],
-    "runtime": 129
-  },
-  "harbinger": {
-    "title": "Harbinger",
-    "year": 2026,
-    "overview": null,
-    "poster": "https://image.tmdb.org/t/p/w500/m448hhPUvLOX80m6Hqiwt2dHU3q.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/wTTKepitBoe4JFTM1h15qWBsXnm.jpg",
-    "rating": 2.5,
-    "genres": [
-      "Kengerian"
-    ],
-    "runtime": null
-  },
-  "the-spongebob-movie-search-for-squarepants": {
-    "title": "Film SpongeBob: Pencarian SquarePants",
-    "year": 2025,
-    "overview": "Karena sangat ingin menjadi orang besar, SpongeBob bertekad membuktikan keberaniannya kepada Tuan Krabs dengan mengikuti The Flying Dutchman – hantu bajak laut misterius yang gagah berani – dalam petualangan laut yang membawanya ke kedalaman laut terdalam, tempat yang belum pernah dikunjungi Sponge sebelumnya.",
-    "poster": "https://image.tmdb.org/t/p/w500/xJnOMMsFASxNiFnG7v3TNIQ3ife.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/pMxO1beNNFYMDM7RcDyKW5Wheuz.jpg",
-    "rating": 6.8,
-    "genres": [
-      "Petualangan",
-      "Keluarga",
-      "Animasi",
-      "Komedi",
-      "Fantasi"
-    ],
-    "runtime": 88
-  },
-  "the-pout-pout-fish": {
-    "title": "The Pout-Pout Fish",
-    "year": 2026,
-    "overview": null,
-    "poster": "https://image.tmdb.org/t/p/w500/fcDXgGL14qL46It1XOozEjX5Jws.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/6qQQhhF87Rm1z2TYhXAmoPiEHME.jpg",
-    "rating": 5.5,
-    "genres": [
-      "Animasi",
-      "Keluarga",
-      "Petualangan",
-      "Komedi"
-    ],
-    "runtime": 91
-  },
-  "plankton-the-movie": {
-    "title": "Plankton: The Movie",
-    "year": 2025,
-    "overview": "Kisah cinta Plankton yang rumit dengan istrinya—komputer yang punya perasaan—menjadi kacau ketika sang istri bersikeras dan berniat menghancurkan dunia tanpa Plankton.",
-    "poster": "https://image.tmdb.org/t/p/w500/8wjbrYbkT09m2MCJnCpe5w3zvTF.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/lsgT602GYV8ts97sKH1gWFtQs1k.jpg",
-    "rating": 6.7,
-    "genres": [
-      "Keluarga",
-      "Komedi",
-      "Petualangan",
-      "Animasi",
-      "Cerita Fiksi"
-    ],
-    "runtime": 83
-  },
-  "hoppers": {
-    "title": "Hoppers",
-    "year": 2026,
-    "overview": "Para ilmuwan telah menemukan cara untuk 'mentransfer' kesadaran manusia ke dalam hewan robot yang menyerupai manusia., Memungkinkan manusia untuk berkomunikasi dengan hewan sebagai hewan. Mabel, seorang pencinta hewan, memanfaatkan kesempatan untuk menggunakan teknologi tersebut. Mengungkap misteri di dunia hewan yang melampaui apa pun yang pernah dia bayangkan.",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
-    "rating": 8.1,
-    "genres": [
-      "Petualangan",
-      "Animasi",
-      "Komedi",
-      "Keluarga",
-      "Cerita Fiksi"
-    ],
-    "runtime": 104
-  },
-  "toy-story-5": {
-    "title": "Toy Story 5",
-    "year": 2026,
-    "overview": null,
-    "poster": "https://image.tmdb.org/t/p/w500/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
-    "rating": 8.3,
-    "genres": [
-      "Animasi",
-      "Keluarga",
-      "Komedi",
-      "Petualangan"
-    ],
-    "runtime": 102
-  },
-  "the-super-mario-galaxy-movie": {
-    "title": "The Super Mario Galaxy Movie",
-    "year": 2026,
-    "overview": null,
-    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
-    "rating": 8.2,
-    "genres": [
-      "Keluarga",
-      "Komedi",
-      "Petualangan",
-      "Fantasi",
-      "Animasi"
-    ],
-    "runtime": 98
-  },
-  "moana": {
-    "title": "Moana",
-    "year": 2016,
-    "overview": "Seorang remaja yang penuh semangat bernama Moana Waialiki, seorang putri kerajaan dari Polinesia di Samudera Pasifik. Dia akan melakukan perjalanan untuk menyelesaikan misinya, yakni mencari leluhurnya.",
-    "poster": "https://image.tmdb.org/t/p/w500/4JeejGugONWpJkbnvL12hVoYEDa.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/qLVNZFHYUR6Li64He67SWl6BHQe.jpg",
-    "rating": 7.6,
-    "genres": [
-      "Petualangan",
-      "Komedi",
-      "Keluarga",
-      "Animasi"
-    ],
-    "runtime": 113
-  },
-  "moana-2": {
-    "title": "Moana 2",
-    "year": 2024,
-    "overview": "Setelah menerima panggilan tak terduga dari nenek moyangnya yang mencari jalan, Moana harus melakukan perjalanan ke lautan jauh dan ke perairan berbahaya yang telah lama hilang untuk sebuah petualangan yang belum pernah ia hadapi.",
-    "poster": "https://image.tmdb.org/t/p/w500/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/vYqt6kb4lcF8wwqsMMaULkP9OEn.jpg",
-    "rating": 7,
-    "genres": [
-      "Petualangan",
-      "Animasi",
-      "Komedi",
-      "Keluarga",
-      "Fantasi"
-    ],
-    "runtime": 100
   },
   "gak-nyangka": {
     "title": "Gak Nyangka..!!",
@@ -258,7 +31,7 @@
     "year": 2026,
     "overview": "Biba (guru beranggaran minim) dan Rizky (videografer terpuruk) yang bermimpi menggelar pesta pernikahan sederhana. Namun, rencana mereka terhambat oleh keluarga Biba yang memaksakan pesta mewah demi status sosial dan keuntungan finansial dari tamu undangan, sehingga mengancam masa depan hubungan mereka.",
     "poster": "https://image.tmdb.org/t/p/w500/e5dHk1i4PWPSVjeVPVJCmJ4y2Hu.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/akOi8GCfKyEQ3UdRvTxcpsNipRk.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/p04t9iLcRtDtUx7MeFkwygClgdr.jpg",
     "rating": null,
     "genres": [
       "Drama",
@@ -314,9 +87,10 @@
     "overview": null,
     "poster": "https://image.tmdb.org/t/p/w500/QBxira0clJwdCRHu2O2rELU9J.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/aMD179LsRq3oyFeAUSjij3dDtRX.jpg",
-    "rating": 7.2,
+    "rating": 7.1,
     "genres": [
-      "Komedi"
+      "Komedi",
+      "Kengerian"
     ],
     "runtime": 119
   },
@@ -326,7 +100,7 @@
     "overview": null,
     "poster": "https://image.tmdb.org/t/p/w500/2Jzfr9XdJ7o3TWecHUMOWoFGUXg.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/AvYsEYnj8h0495UhBYEXqK7hkFo.jpg",
-    "rating": 8.3,
+    "rating": 8.4,
     "genres": [
       "Komedi",
       "Kejahatan",
@@ -449,17 +223,391 @@
     ],
     "runtime": 119
   },
-  "animals": {
-    "title": "Animals",
+  "mayday": {
+    "title": "Mayday",
     "year": 2026,
-    "overview": "Saat putra mereka diculik, seorang kandidat wali kota LA dan istrinya kalang kabut mengumpulkan tebusan sambil membuat keputusan yang bisa menghancurkan hidup mereka.",
-    "poster": "https://image.tmdb.org/t/p/w500/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/tzoarEu7TsG959upiELyYPm5kO9.jpg",
-    "rating": 7.4,
+    "overview": "Saat seorang pilot Angkatan Laut AS dalam misi rahasia selama Perang Dingin terjebak di belakang garis musuh, satu-satunya peluang untuk bertahan hidup adalah menjalin aliansi dengan seorang mantan agen KGB eksentrik.",
+    "poster": "https://image.tmdb.org/t/p/w500/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
+    "rating": 7.9,
     "genres": [
-      "Cerita Seru",
+      "Aksi",
+      "Komedi"
+    ],
+    "runtime": 111
+  },
+  "the-mongoose": {
+    "title": "The Mongoose",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+    "rating": 6.7,
+    "genres": [
+      "Aksi",
+      "Cerita Seru"
+    ],
+    "runtime": 99
+  },
+  "mutiny": {
+    "title": "Mutiny",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
+    "rating": 7.6,
+    "genres": [
+      "Aksi",
+      "Cerita Seru"
+    ],
+    "runtime": 96
+  },
+  "weapons": {
+    "title": "Weapons",
+    "year": 2025,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8VyTWJrNEyV2MTWvniDVp0MpOAe.jpg",
+    "rating": 7.3,
+    "genres": [
+      "Kengerian",
+      "Misteri"
+    ],
+    "runtime": 129
+  },
+  "harbinger": {
+    "title": "Harbinger",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/m448hhPUvLOX80m6Hqiwt2dHU3q.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wTTKepitBoe4JFTM1h15qWBsXnm.jpg",
+    "rating": 2.8,
+    "genres": [
+      "Kengerian"
+    ],
+    "runtime": null
+  },
+  "the-spongebob-movie-search-for-squarepants": {
+    "title": "Film SpongeBob: Pencarian SquarePants",
+    "year": 2025,
+    "overview": "Karena sangat ingin menjadi orang besar, SpongeBob bertekad membuktikan keberaniannya kepada Tuan Krabs dengan mengikuti The Flying Dutchman – hantu bajak laut misterius yang gagah berani – dalam petualangan laut yang membawanya ke kedalaman laut terdalam, tempat yang belum pernah dikunjungi Sponge sebelumnya.",
+    "poster": "https://image.tmdb.org/t/p/w500/xJnOMMsFASxNiFnG7v3TNIQ3ife.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pMxO1beNNFYMDM7RcDyKW5Wheuz.jpg",
+    "rating": 6.8,
+    "genres": [
+      "Petualangan",
+      "Keluarga",
+      "Animasi",
+      "Komedi",
+      "Fantasi"
+    ],
+    "runtime": 88
+  },
+  "the-pout-pout-fish": {
+    "title": "The Pout-Pout Fish",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/fcDXgGL14qL46It1XOozEjX5Jws.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6qQQhhF87Rm1z2TYhXAmoPiEHME.jpg",
+    "rating": 5.5,
+    "genres": [
+      "Animasi",
+      "Keluarga",
+      "Petualangan",
+      "Komedi"
+    ],
+    "runtime": 91
+  },
+  "plankton-the-movie": {
+    "title": "Plankton: The Movie",
+    "year": 2025,
+    "overview": "Kisah cinta Plankton yang rumit dengan istrinya—komputer yang punya perasaan—menjadi kacau ketika sang istri bersikeras dan berniat menghancurkan dunia tanpa Plankton.",
+    "poster": "https://image.tmdb.org/t/p/w500/8wjbrYbkT09m2MCJnCpe5w3zvTF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lsgT602GYV8ts97sKH1gWFtQs1k.jpg",
+    "rating": 6.7,
+    "genres": [
+      "Keluarga",
+      "Komedi",
+      "Petualangan",
+      "Animasi",
+      "Cerita Fiksi"
+    ],
+    "runtime": 83
+  },
+  "hoppers": {
+    "title": "Hoppers",
+    "year": 2026,
+    "overview": "Para ilmuwan telah menemukan cara untuk 'mentransfer' kesadaran manusia ke dalam hewan robot yang menyerupai manusia., Memungkinkan manusia untuk berkomunikasi dengan hewan sebagai hewan. Mabel, seorang pencinta hewan, memanfaatkan kesempatan untuk menggunakan teknologi tersebut. Mengungkap misteri di dunia hewan yang melampaui apa pun yang pernah dia bayangkan.",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+    "rating": 8.1,
+    "genres": [
+      "Animasi",
+      "Petualangan",
+      "Komedi",
+      "Keluarga",
+      "Cerita Fiksi"
+    ],
+    "runtime": 104
+  },
+  "toy-story-5": {
+    "title": "Toy Story 5",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
+    "rating": 8.3,
+    "genres": [
+      "Animasi",
+      "Keluarga",
+      "Komedi",
+      "Petualangan"
+    ],
+    "runtime": 102
+  },
+  "the-super-mario-galaxy-movie": {
+    "title": "The Super Mario Galaxy Movie",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
+    "rating": 8.2,
+    "genres": [
+      "Keluarga",
+      "Komedi",
+      "Petualangan",
+      "Fantasi",
+      "Animasi"
+    ],
+    "runtime": 98
+  },
+  "moana": {
+    "title": "Moana",
+    "year": 2016,
+    "overview": "Seorang remaja yang penuh semangat bernama Moana Waialiki, seorang putri kerajaan dari Polinesia di Samudera Pasifik. Dia akan melakukan perjalanan untuk menyelesaikan misinya, yakni mencari leluhurnya.",
+    "poster": "https://image.tmdb.org/t/p/w500/m5MDZOIFEFlxGiLuAzWzFSsWcye.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qLVNZFHYUR6Li64He67SWl6BHQe.jpg",
+    "rating": 7.6,
+    "genres": [
+      "Petualangan",
+      "Komedi",
+      "Keluarga",
+      "Animasi"
+    ],
+    "runtime": 113
+  },
+  "moana-2": {
+    "title": "Moana 2",
+    "year": 2024,
+    "overview": "Setelah menerima panggilan tak terduga dari nenek moyangnya yang mencari jalan, Moana harus melakukan perjalanan ke lautan jauh dan ke perairan berbahaya yang telah lama hilang untuk sebuah petualangan yang belum pernah ia hadapi.",
+    "poster": "https://image.tmdb.org/t/p/w500/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vYqt6kb4lcF8wwqsMMaULkP9OEn.jpg",
+    "rating": 7,
+    "genres": [
+      "Petualangan",
+      "Animasi",
+      "Komedi",
+      "Keluarga",
+      "Fantasi"
+    ],
+    "runtime": 100
+  },
+  "fall-2-deadpoint": {
+    "title": "Fall 2: Deadpoint",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg",
+    "rating": 7.3,
+    "genres": [
+      "Cerita Seru"
+    ],
+    "runtime": 98
+  },
+  "fall": {
+    "title": "Fall",
+    "year": 2022,
+    "overview": "Untuk sahabat Becky dan Hunter, hidup adalah tentang menaklukkan ketakutan dan mendorong batas. Tetapi setelah mereka mendaki 2.000 kaki ke puncak menara radio terpencil yang ditinggalkan, mereka menemukan diri mereka terdampar tanpa jalan turun. Sekarang keterampilan panjat ahli Becky dan Hunter akan diuji saat mereka mati-matian berjuang untuk bertahan hidup dari unsur-unsur, kurangnya persediaan, dan ketinggian yang menyebabkan vertigo.",
+    "poster": "https://image.tmdb.org/t/p/w500/spCAxD99U1A6jsiePFoqdEcY0dG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hlxduUs8y9icWGMzYCDLcYHEQ2u.jpg",
+    "rating": 7.2,
+    "genres": [
+      "Cerita Seru"
+    ],
+    "runtime": 107
+  },
+  "spider-man-brand-new-day": {
+    "title": "Spider-Man: Brand New Day",
+    "year": 2026,
+    "overview": "Empat tahun setelah peristiwa Spider-Man: No Way Home, Peter Parker sudah tidak ada lagi dan Spider-Man kini berada di puncak kemampuannya dalam menjaga Kota New York tetap aman. Semuanya berjalan dengan baik hingga serangkaian kejahatan yang tidak biasa menyeret Spider-Man ke dalam jaring misteri yang lebih besar dari apa pun yang pernah ia hadapi sebelumnya. Untuk menghadapi apa yang akan datang, Spider-Man tidak hanya harus berada dalam kondisi fisik dan mental terbaiknya, tetapi juga harus siap menghadapi konsekuensi dari masa lalunya!",
+    "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
+    "rating": 8.5,
+    "genres": [
+      "Cerita Fiksi",
+      "Aksi",
+      "Petualangan"
+    ],
+    "runtime": 145
+  },
+  "cerita-lila": {
+    "title": "Cerita Lila",
+    "year": 2026,
+    "overview": "Lila, arwah seorang gadis kecil yang masih terikat pada masa lalunya, terus mencari saudari kembarnya yang hilang, Lili. Kehidupannya berubah saat Nia dan ibunya, Tari, pindah ke rumah tempat Lila berada.  Persahabatan yang terjalin antara Lila dan Nia membawa mereka pada pencarian yang perlahan membuka rahasia kelam yang lama terkubur.  Ketika kehadiran sosok Rahma mulai mengancam keselamatan mereka, Nia meminta bantuan Sara Wijayanto dan Wisnu untuk mengungkap kebenaran di balik tragedi masa lalu.",
+    "poster": "https://image.tmdb.org/t/p/w500/80CcJdrV3ewqPawFMAFGIrldgR5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9rZVlvA5Nk3SA4GJk1ySUbZLtTg.jpg",
+    "rating": 5.3,
+    "genres": [
+      "Kengerian"
+    ],
+    "runtime": 106
+  },
+  "gara-gara-warisan": {
+    "title": "Gara-Gara Warisan",
+    "year": 2022,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/dhIcT3nNSIF5CzOGkFwkq2DEwh1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rgJtvxZ1ZusVO26Sp9f23J6y02T.jpg",
+    "rating": 7.1,
+    "genres": [
+      "Komedi",
       "Drama"
     ],
-    "runtime": 109
+    "runtime": 119
+  },
+  "sekawan-limo-2-gunung-klawih": {
+    "title": "Sekawan Limo 2: Gunung Klawih",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/pQfM9snJ9EZGmkNf0CR2Mhqugz6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/w0HQPkEI8nD4oaTIcTyaRKvghs0.jpg",
+    "rating": 7.1,
+    "genres": [
+      "Petualangan",
+      "Komedi",
+      "Fantasi",
+      "Kengerian"
+    ],
+    "runtime": 122
+  },
+  "sengkolo-petaka-satu-suro": {
+    "title": "Sengkolo: Petaka Satu Suro",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/aIUwa380i4HNaLyQFfzHjP9WZlN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kUAXfX2xi9zVfxU6OdCrAyCpwg8.jpg",
+    "rating": 5.8,
+    "genres": [
+      "Kengerian"
+    ],
+    "runtime": 104
+  },
+  "ain": {
+    "title": "'Ain",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/6KpPmKMrwjJgSVXqCem5X3xWiZe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nqDROnbKp52GQEgqz1B7OTs0bOR.jpg",
+    "rating": 3.5,
+    "genres": [
+      "Kengerian",
+      "Cerita Seru"
+    ],
+    "runtime": 110
+  },
+  "badut-gendong": {
+    "title": "Badut Gendong",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/kIAltyOVZFIRFFFgBUBABb0HyF7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aVnrli2pknnbAeGhsjhLBWc5yCL.jpg",
+    "rating": 7.8,
+    "genres": [
+      "Aksi",
+      "Drama",
+      "Kengerian",
+      "Fantasi",
+      "Cerita Seru"
+    ],
+    "runtime": 101
+  },
+  "monster-pabrik-rambut": {
+    "title": "Monster Pabrik Rambut",
+    "year": 2026,
+    "overview": "PUTRI (Rachel Amanda) kehilangan ibunya, yang mati setelah beberapa hari tak tidur karena bekerja siang dan malam. Menurut MARYATI (Didik Nini Thowok), pemilik pabrik, ibunya mati bunuh diri. Awalnya ia percaya, tapi IDA (Lutesha), adiknya, mengatakan bahwa ibu mereka mati karena kesurupan. Untuk membuktikan omongannya, Ida memutuskan untuk lembur, tak tidur berhari-hari, demi melihat sendiri sosok hitam yang merebut tubuh ibunya. BONA (Iqbaal Ramadhan), adik bungsu mereka, memiliki kemampuan spesial. Ia mampu meregenerasi bagian tubuhnya. Sosok hitam berhasil menyandera Bona. Mampukah Putri dan Ida menyelamatkan Bona?",
+    "poster": "https://image.tmdb.org/t/p/w500/fiapXpPfhW3Uqjj0jMIVtaAdGRc.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/m7pUxa1AaXjuvpFJsb4hvB25Lv.jpg",
+    "rating": 7,
+    "genres": [
+      "Kengerian",
+      "Fantasi"
+    ],
+    "runtime": 96
+  },
+  "tumbal-proyek": {
+    "title": "Tumbal Proyek",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/wdOa8jWX8u1YNSlWyRvoNCc9y7S.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/k3Nc57fdRkzleHjodta45mGJV2C.jpg",
+    "rating": 3.9,
+    "genres": [
+      "Kengerian",
+      "Cerita Seru"
+    ],
+    "runtime": 106
+  },
+  "warkop-dki-viralin-doooong": {
+    "title": "Warkop DKI: ViRaLiN dOoOoNg..!!",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/w9B66TqXL0WGw2roQOk3ohxJQWM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dyBfej8BJJe2XHWGnYCmHNA9uyi.jpg",
+    "rating": 5.5,
+    "genres": [
+      "Komedi"
+    ],
+    "runtime": 120
+  },
+  "jangan-buang-ibu": {
+    "title": "Jangan Buang Ibu",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/kN0ZKAhZX0yPDyD8jg6cd0QJyKH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sBwhJiHNOssdvQ4BFoAEh0zq9oI.jpg",
+    "rating": 7.2,
+    "genres": [
+      "Drama",
+      "Keluarga"
+    ],
+    "runtime": 119
+  },
+  "gudang-merica": {
+    "title": "Gudang Merica",
+    "year": 2026,
+    "overview": "Belum diketahui.",
+    "poster": "https://image.tmdb.org/t/p/w500/nwriVQsL2IlWktj8jafKs5qbrgi.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ymyCANhZD7Bhuvbc2KQeB3sEqwI.jpg",
+    "rating": 5.5,
+    "genres": [
+      "Komedi",
+      "Kengerian",
+      "Misteri"
+    ],
+    "runtime": 98
+  },
+  "the-hunger-games-sunrise-on-the-reaping": {
+    "title": "The Hunger Games: Sunrise on the Reaping",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/j1MNyNNgNQL6f27cb3m3uKaPKd6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+    "rating": null,
+    "genres": [
+      "Cerita Fiksi",
+      "Aksi",
+      "Petualangan"
+    ],
+    "runtime": 158
   }
 }

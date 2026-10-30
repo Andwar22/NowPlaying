@@ -1,146 +1,20 @@
 {
     "movies": [
         {
-            "id": "fall-2-deadpoint",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Fall 2: Deadpoint (2026)",
-            "tmdbId": 1101412
-        },
-        {
-            "id": "fall",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Fall (2022)",
-            "tmdbId": 985939
-        },
-        {
             "id": "deep-water",
             "note": "Tonton sekarang di aplikasi Jellyfin",
             "showFrom": "2026-10-01",
-            "showUntil": "2026-11-01",
+            "showUntil": "2026-10-30",
             "title": "Deep Water (2026)",
             "tmdbId": 1127384
         },
-        {
-            "id": "mayday",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Mayday (2026)",
-            "tmdbId": 1137844
-        },
-        {
-            "id": "the-mongoose",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "The Mongoose (2026)",
-            "tmdbId": 1294189
-        },
-        {
-            "id": "mutiny",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Mutiny (2026)",
-            "tmdbId": 1288445
-        },
-        {
-            "id": "spider-man-brand-new-day",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Spider-Man: Brand New Day (2026)",
-            "tmdbId": 969681
-        },
-        {
-            "id": "weapons",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Weapons (2025)",
-            "tmdbId": 1078605
-        },
-        {
-            "id": "harbinger",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Harbinger (2026)",
-            "tmdbId": 1564494
-        },
-        {
-            "id": "the-spongebob-movie-search-for-squarepants",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Film SpongeBob: Pencarian SquarePants (2025)",
-            "tmdbId": 991494
-        },
-        {
-            "id": "the-pout-pout-fish",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "The Pout-Pout Fish (2026)",
-            "tmdbId": 1146058
-        },
-        {
-            "id": "plankton-the-movie",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Plankton: The Movie (2025)",
-            "tmdbId": 1104845
-        },
-        {
-            "id": "hoppers",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Hoppers (2026)",
-            "tmdbId": 1327819
-        },
-        {
-            "id": "toy-story-5",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Toy Story 5 (2026)",
-            "tmdbId": 1084244
-        },
-        {
-            "id": "the-super-mario-galaxy-movie",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "The Super Mario Galaxy Movie (2026)",
-            "tmdbId": 1226863
-        },
-        {
-            "id": "moana",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Moana (2016)",
-            "tmdbId": 277834
-        },
-        {
-            "id": "moana-2",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-11-30",
-            "title": "Moana 2 (2024)",
-            "tmdbId": 1241982
-        },
+
+
         {
             "id": "gak-nyangka",
             "note": "Tonton sekarang di aplikasi Jellyfin",
             "showFrom": "2026-10-01",
-            "showUntil": "2026-11-10",
+            "showUntil": "2026-11-15",
             "title": "Gak Nyangka..!! (2025)",
             "tmdbId": 1499565
         },
@@ -148,7 +22,7 @@
             "id": "uang-passolo-amplop-kondangan",
             "note": "Tonton sekarang di aplikasi Jellyfin",
             "showFrom": "2026-10-01",
-            "showUntil": "2026-11-10",
+            "showUntil": "2026-11-15",
             "title": "Uang Passolo -Amplop Kondangan- (2026)",
             "tmdbId": 1575146
         },
@@ -156,7 +30,7 @@
             "id": "suka-duka-tawa",
             "note": "Tonton sekarang di aplikasi Jellyfin",
             "showFrom": "2026-10-01",
-            "showUntil": "2026-11-20",
+            "showUntil": "2026-11-15",
             "title": "Suka Duka Tawa (2026)",
             "tmdbId": 1565069
         },
@@ -164,7 +38,7 @@
             "id": "musuh-dalam-selimut",
             "note": "Tonton sekarang di aplikasi Jellyfin",
             "showFrom": "2026-10-01",
-            "showUntil": "2026-11-10",
+            "showUntil": "2026-11-15",
             "title": "Musuh Dalam Selimut (2026)",
             "tmdbId": 1443963
         },
@@ -176,6 +50,8 @@
             "title": "Modal Nekad (2024)",
             "tmdbId": 1380486
         },
+
+
         {
             "id": "agak-laen",
             "note": "Tonton sekarang di aplikasi Jellyfin",
@@ -252,7 +128,7 @@
             "id": "pernikahan-arwah",
             "note": "Tonton sekarang di aplikasi Jellyfin",
             "showFrom": "2026-10-01",
-            "showUntil": "2026-11-20",
+            "showUntil": "2026-11-30",
             "title": "Pernikahan Arwah (2025)",
             "tmdbId": 1339775
         },
@@ -264,15 +140,239 @@
             "title": "Para Perasuk (2026)",
             "tmdbId": 1247038
         },
-        
+
 
         {
-            "id": "animals",
-            "note": "Nantikan filmnya di aplikasi Jellyfin",
-            "showFrom": "2026-10-25",
+            "id": "mayday",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
             "showUntil": "2026-12-15",
-            "title": "Animals (2026)",
-            "tmdbId": 1236045
+            "title": "Mayday (2026)",
+            "tmdbId": 1137844
+        },
+        {
+            "id": "the-mongoose",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-15",
+            "title": "The Mongoose (2026)",
+            "tmdbId": 1294189
+        },
+        {
+            "id": "mutiny",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-15",
+            "title": "Mutiny (2026)",
+            "tmdbId": 1288445
+        },
+        {
+            "id": "weapons",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-11-15",
+            "title": "Weapons (2025)",
+            "tmdbId": 1078605
+        },
+        {
+            "id": "harbinger",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-11-15",
+            "title": "Harbinger (2026)",
+            "tmdbId": 1564494
+        },
+
+        
+        {
+            "id": "the-spongebob-movie-search-for-squarepants",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-30",
+            "title": "Film SpongeBob: Pencarian SquarePants (2025)",
+            "tmdbId": 991494
+        },
+        {
+            "id": "the-pout-pout-fish",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-30",
+            "title": "The Pout-Pout Fish (2026)",
+            "tmdbId": 1146058
+        },
+        {
+            "id": "plankton-the-movie",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-30",
+            "title": "Plankton: The Movie (2025)",
+            "tmdbId": 1104845
+        },
+        {
+            "id": "hoppers",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-30",
+            "title": "Hoppers (2026)",
+            "tmdbId": 1327819
+        },
+        {
+            "id": "toy-story-5",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-30",
+            "title": "Toy Story 5 (2026)",
+            "tmdbId": 1084244
+        },
+        {
+            "id": "the-super-mario-galaxy-movie",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-30",
+            "title": "The Super Mario Galaxy Movie (2026)",
+            "tmdbId": 1226863
+        },
+        {
+            "id": "moana",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-30",
+            "title": "Moana (2016)",
+            "tmdbId": 277834
+        },
+        {
+            "id": "moana-2",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-30",
+            "title": "Moana 2 (2024)",
+            "tmdbId": 1241982
+        },
+        {
+            "id": "fall-2-deadpoint",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-30",
+            "title": "Fall 2: Deadpoint (2026)",
+            "tmdbId": 1101412
+        },
+        {
+            "id": "fall",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-30",
+            "title": "Fall (2022)",
+            "tmdbId": 985939
+        },
+        {
+            "id": "spider-man-brand-new-day",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-01",
+            "showUntil": "2026-12-30",
+            "title": "Spider-Man: Brand New Day (2026)",
+            "tmdbId": 969681
+        },
+        
+        
+        {
+            "id": "cerita-lila",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-25",
+            "showUntil": "2027-01-30",
+            "title": "Cerita Lila (2026)",
+            "tmdbId": 1590613
+        },
+        {
+            "id": "gara-gara-warisan",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-25",
+            "showUntil": "2027-01-30",
+            "title": "Gara-Gara Warisan (2022)",
+            "tmdbId": 811736
+        },
+        {
+            "id": "sekawan-limo-2-gunung-klawih",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-25",
+            "showUntil": "2027-01-30",
+            "title": "Sekawan Limo 2: Gunung Klawih (2026)",
+            "tmdbId": 1395111
+        },
+        {
+            "id": "sengkolo-petaka-satu-suro",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-10-25",
+            "showUntil": "2027-01-30",
+            "title": "Sengkolo: Petaka Satu Suro (2026)",
+            "tmdbId": 1576953
+        },
+
+
+        {
+            "id": "ain",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "'Ain (2026)",
+            "tmdbId": 1590666
+        },
+        {
+            "id": "badut-gendong",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Badut Gendong (2026)",
+            "tmdbId": 1589713
+        },
+        {
+            "id": "monster-pabrik-rambut",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Monster Pabrik Rambut (2026)",
+            "tmdbId": 1263904
+        },
+        {
+            "id": "tumbal-proyek",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Tumbal Proyek (2026)",
+            "tmdbId": 1469930
+        },
+        {
+            "id": "warkop-dki-viralin-doooong",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Warkop DKI: ViRaLiN dOoOoNg..!!",
+            "tmdbId": 1574961
+        },
+        {
+            "id": "jangan-buang-ibu",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Jangan Buang Ibu",
+            "tmdbId": 1519340
+        },
+        {
+            "id": "gudang-merica",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Gudang Merica",
+            "tmdbId": 1581587
+        },
+        
+        
+        {
+            "id": "the-hunger-games-sunrise-on-the-reaping",
+            "note": "Nantikan filmnya di aplikasi Jellyfin",
+            "showFrom": "2026-12-30",
+            "showUntil": "2027-02-30",
+            "title": "The Hunger Games: Sunrise on the Reaping (2026)",
+            "tmdbId": 1300968
         }
     ]
 }
