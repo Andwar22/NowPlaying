@@ -1,16 +1,6 @@
 {
     "movies": [
         {
-            "id": "deep-water",
-            "note": "Tonton sekarang di aplikasi Jellyfin",
-            "showFrom": "2026-10-01",
-            "showUntil": "2026-10-30",
-            "title": "Deep Water (2026)",
-            "tmdbId": 1127384
-        },
-
-
-        {
             "id": "gak-nyangka",
             "note": "Tonton sekarang di aplikasi Jellyfin",
             "showFrom": "2026-10-01",
@@ -345,7 +335,7 @@
             "note": "Tonton sekarang di aplikasi Jellyfin",
             "showFrom": "2026-11-01",
             "showUntil": "2027-01-30",
-            "title": "Warkop DKI: ViRaLiN dOoOoNg..!!",
+            "title": "Warkop DKI: ViRaLiN dOoOoNg..!! (2026)",
             "tmdbId": 1574961
         },
         {
@@ -353,7 +343,7 @@
             "note": "Tonton sekarang di aplikasi Jellyfin",
             "showFrom": "2026-11-01",
             "showUntil": "2027-01-30",
-            "title": "Jangan Buang Ibu",
+            "title": "Jangan Buang Ibu (2026)",
             "tmdbId": 1519340
         },
         {
@@ -361,8 +351,80 @@
             "note": "Tonton sekarang di aplikasi Jellyfin",
             "showFrom": "2026-11-01",
             "showUntil": "2027-01-30",
-            "title": "Gudang Merica",
+            "title": "Gudang Merica (2026)",
             "tmdbId": 1581587
+        },
+        {
+            "id": "ayah-ini-arahnya-ke-mana-ya",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Ayah, Ini Arahnya Ke Mana, Ya? (2026)",
+            "tmdbId": 1604226
+        },
+        {
+            "id": "bayang-bayang-anak-jahanam",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Bayang-Bayang Anak Jahanam (2025)",
+            "tmdbId": 1400491
+        },
+        {
+            "id": "khadam",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Khadam (2026)",
+            "tmdbId": 1552493
+        },
+        {
+            "id": "kupeluk-kamu-selamanya",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Kupeluk Kamu Selamanya (2026)",
+            "tmdbId": 1650901
+        },
+        {
+            "id": "semua-akan-baik-baik-saja",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Semua Akan Baik-Baik Saja (2026)",
+            "tmdbId": 1599729
+        },
+        {
+            "id": "tunggu-aku-sukses-nanti",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Tunggu Aku Sukses Nanti (2026)",
+            "tmdbId": 1589775
+        },
+        {
+            "id": "redemptions",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Redemptions (2026)",
+            "tmdbId": 1705737
+        },
+        {
+            "id": "resident-evil",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "Resident Evil (2026)",
+            "tmdbId": 1423191
+        },
+        {
+            "id": "the-remarried-empress",
+            "note": "Tonton sekarang di aplikasi Jellyfin",
+            "showFrom": "2026-11-01",
+            "showUntil": "2027-01-30",
+            "title": "The Remarried Empress (2026)",
+            "tmdbId": 279246
         },
         
         

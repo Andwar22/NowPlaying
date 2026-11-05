@@ -1,18 +1,4 @@
 {
-  "deep-water": {
-    "title": "Deep Water",
-    "year": 2026,
-    "overview": null,
-    "poster": "https://image.tmdb.org/t/p/w500/ZWHxL2ETItcZzeVsVfs6gv3SZ7.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/szKv713FcUXx6hcfdY369vtkmzr.jpg",
-    "rating": 7.4,
-    "genres": [
-      "Kengerian",
-      "Cerita Seru",
-      "Petualangan"
-    ],
-    "runtime": 107
-  },
   "gak-nyangka": {
     "title": "Gak Nyangka..!!",
     "year": 2025,
@@ -241,8 +227,8 @@
     "year": 2026,
     "overview": null,
     "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
-    "rating": 6.7,
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fEpP7Kib3LeUz0ckTsNJ52cl1k0.jpg",
+    "rating": 6.6,
     "genres": [
       "Aksi",
       "Cerita Seru"
@@ -273,7 +259,7 @@
       "Kengerian",
       "Misteri"
     ],
-    "runtime": 129
+    "runtime": 128
   },
   "harbinger": {
     "title": "Harbinger",
@@ -415,7 +401,7 @@
   "fall-2-deadpoint": {
     "title": "Fall 2: Deadpoint",
     "year": 2026,
-    "overview": null,
+    "overview": "Dalam pendakian berbahaya melintasi Gunung Kwan di Thailand, dua pendaki terjebak ribuan kaki di atas tanah, di mana ketinggian yang memicu vertigo, paparan yang sangat luas, dan peluang yang mustahil mengubah setiap saat menjadi perjuangan untuk bertahan hidup.",
     "poster": "https://image.tmdb.org/t/p/w500/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg",
     "rating": 7.3,
@@ -441,7 +427,7 @@
     "year": 2026,
     "overview": "Empat tahun setelah peristiwa Spider-Man: No Way Home, Peter Parker sudah tidak ada lagi dan Spider-Man kini berada di puncak kemampuannya dalam menjaga Kota New York tetap aman. Semuanya berjalan dengan baik hingga serangkaian kejahatan yang tidak biasa menyeret Spider-Man ke dalam jaring misteri yang lebih besar dari apa pun yang pernah ia hadapi sebelumnya. Untuk menghadapi apa yang akan datang, Spider-Man tidak hanya harus berada dalam kondisi fisik dan mental terbaiknya, tetapi juga harus siap menghadapi konsekuensi dari masa lalunya!",
     "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dzeCorl61ZdxbzfnciUkrc8JSZj.jpg",
     "rating": 8.5,
     "genres": [
       "Cerita Fiksi",
@@ -456,7 +442,7 @@
     "overview": "Lila, arwah seorang gadis kecil yang masih terikat pada masa lalunya, terus mencari saudari kembarnya yang hilang, Lili. Kehidupannya berubah saat Nia dan ibunya, Tari, pindah ke rumah tempat Lila berada.  Persahabatan yang terjalin antara Lila dan Nia membawa mereka pada pencarian yang perlahan membuka rahasia kelam yang lama terkubur.  Ketika kehadiran sosok Rahma mulai mengancam keselamatan mereka, Nia meminta bantuan Sara Wijayanto dan Wisnu untuk mengungkap kebenaran di balik tragedi masa lalu.",
     "poster": "https://image.tmdb.org/t/p/w500/80CcJdrV3ewqPawFMAFGIrldgR5.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/9rZVlvA5Nk3SA4GJk1ySUbZLtTg.jpg",
-    "rating": 5.3,
+    "rating": 5.2,
     "genres": [
       "Kengerian"
     ],
@@ -481,7 +467,7 @@
     "overview": null,
     "poster": "https://image.tmdb.org/t/p/w500/pQfM9snJ9EZGmkNf0CR2Mhqugz6.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/w0HQPkEI8nD4oaTIcTyaRKvghs0.jpg",
-    "rating": 7.1,
+    "rating": 6,
     "genres": [
       "Petualangan",
       "Komedi",
@@ -496,7 +482,7 @@
     "overview": null,
     "poster": "https://image.tmdb.org/t/p/w500/aIUwa380i4HNaLyQFfzHjP9WZlN.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/kUAXfX2xi9zVfxU6OdCrAyCpwg8.jpg",
-    "rating": 5.8,
+    "rating": 5.6,
     "genres": [
       "Kengerian"
     ],
@@ -521,7 +507,7 @@
     "overview": null,
     "poster": "https://image.tmdb.org/t/p/w500/kIAltyOVZFIRFFFgBUBABb0HyF7.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/aVnrli2pknnbAeGhsjhLBWc5yCL.jpg",
-    "rating": 7.8,
+    "rating": 6.4,
     "genres": [
       "Aksi",
       "Drama",
@@ -550,7 +536,7 @@
     "overview": null,
     "poster": "https://image.tmdb.org/t/p/w500/wdOa8jWX8u1YNSlWyRvoNCc9y7S.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/k3Nc57fdRkzleHjodta45mGJV2C.jpg",
-    "rating": 3.9,
+    "rating": 3.6,
     "genres": [
       "Kengerian",
       "Cerita Seru"
@@ -575,7 +561,7 @@
     "overview": null,
     "poster": "https://image.tmdb.org/t/p/w500/kN0ZKAhZX0yPDyD8jg6cd0QJyKH.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/sBwhJiHNOssdvQ4BFoAEh0zq9oI.jpg",
-    "rating": 7.2,
+    "rating": 6.5,
     "genres": [
       "Drama",
       "Keluarga"
@@ -596,11 +582,131 @@
     ],
     "runtime": 98
   },
+  "ayah-ini-arahnya-ke-mana-ya": {
+    "title": "Ayah, Ini Arahnya Ke Mana, Ya?",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/oQbytInaVqNS7G7S7xXDC0MQ6xn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rkRRykTeZLB4F5aDwDfPAKzHPwO.jpg",
+    "rating": 4.9,
+    "genres": [
+      "Drama",
+      "Keluarga"
+    ],
+    "runtime": 103
+  },
+  "bayang-bayang-anak-jahanam": {
+    "title": "Bayang-Bayang Anak Jahanam",
+    "year": 2025,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/wjHyB3ZfmlZloqBb8i0BSymSA1x.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ckDT8u1bdZdbWIeW5ZGIMSkvEfA.jpg",
+    "rating": 4,
+    "genres": [
+      "Kengerian",
+      "Cerita Seru",
+      "Fantasi"
+    ],
+    "runtime": 78
+  },
+  "khadam": {
+    "title": "Khadam",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/elwBj5UKnGNSzLIQLNbGgsW5g3J.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3wZmVqOrmHOB8j83LmpAbyNwWnE.jpg",
+    "rating": 6.7,
+    "genres": [
+      "Kengerian",
+      "Drama",
+      "Cerita Seru"
+    ],
+    "runtime": 118
+  },
+  "kupeluk-kamu-selamanya": {
+    "title": "Kupeluk Kamu Selamanya",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/uMVIAjupLamc8tnc0uv7gk4Hz4c.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vu3fC49jBrPzhk7c48WpnYSl6AB.jpg",
+    "rating": 7.3,
+    "genres": [
+      "Drama"
+    ],
+    "runtime": 103
+  },
+  "semua-akan-baik-baik-saja": {
+    "title": "Semua Akan Baik-Baik Saja",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/wWM8EqNeEfIVnqfQ3FLTYbTZO1K.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fZO7SGfX4mraJdMxrB7O8XYXGPU.jpg",
+    "rating": 7.2,
+    "genres": [
+      "Drama",
+      "Komedi"
+    ],
+    "runtime": 113
+  },
+  "tunggu-aku-sukses-nanti": {
+    "title": "Tunggu Aku Sukses Nanti",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/jtU7WqfnpWGkjTvzJyZD2H6jSp1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7XtpDvL2WJOwvVsYIvslL9Y9TBF.jpg",
+    "rating": 5.6,
+    "genres": [
+      "Komedi",
+      "Drama"
+    ],
+    "runtime": 110
+  },
+  "redemptions": {
+    "title": "Rédemptions",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/ssBGY5ICv6ZrlAlb21elz8dbafK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4oW9kwXIamxaJU4Gnu3k7v6T14y.jpg",
+    "rating": 7.5,
+    "genres": [
+      "Drama",
+      "Cerita Seru",
+      "Kejahatan"
+    ],
+    "runtime": 114
+  },
+  "resident-evil": {
+    "title": "Resident Evil",
+    "year": 2026,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+    "rating": 7.5,
+    "genres": [
+      "Kengerian",
+      "Cerita Fiksi",
+      "Petualangan"
+    ],
+    "runtime": 94
+  },
+  "the-remarried-empress": {
+    "title": "ピイナッツ 落華星",
+    "year": 1996,
+    "overview": null,
+    "poster": "https://image.tmdb.org/t/p/w500/kztxfZatsQeqfrvU3zKWxzcVfGa.jpg",
+    "backdrop": null,
+    "rating": 6.5,
+    "genres": [
+      "Aksi",
+      "Kejahatan"
+    ],
+    "runtime": 87
+  },
   "the-hunger-games-sunrise-on-the-reaping": {
     "title": "The Hunger Games: Sunrise on the Reaping",
     "year": 2026,
     "overview": null,
-    "poster": "https://image.tmdb.org/t/p/w500/j1MNyNNgNQL6f27cb3m3uKaPKd6.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
     "rating": null,
     "genres": [
@@ -608,6 +714,6 @@
       "Aksi",
       "Petualangan"
     ],
-    "runtime": 158
+    "runtime": 159
   }
 }
